@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>Downloader — IG · TikTok · X</title>
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <svg class="logo-ico" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/>
+      </svg>
+      <div class="brand-text">
+        <h1>Downloader</h1>
+        <span>IG · TikTok · X</span>
+      </div>
+    </div>
+    <span class="dot" aria-hidden="true"></span>
+  </header>
+
+  <p class="hint">Passe o mouse no vídeo e clique em <strong>Baixar</strong> — salva direto em Downloads.</p>
+
+  <div class="switches">
+    <button class="switch" id="toggle">
+      <span class="switch-dot"></span>
+      <span id="toggle-label">Ativado</span>
+    </button>
+    <button class="switch muted" id="shopee-toggle">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      <span id="shopee-label">Bot Shopee: parado</span>
+    </button>
+  </div>
+
+  <p class="foot">downloads diretos</p>
+  <script src="popup.js"></script>
+</body>
+</html>
